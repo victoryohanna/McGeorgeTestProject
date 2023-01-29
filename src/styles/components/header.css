@@ -21,6 +21,28 @@
     letter-spacing: -1px;
     color: #ffffff;
 }
-.button-section{
+/* .button-section{
     border: 1px solid white;
+} */
+
+.btn-create,
+.btn-explore{
+  margin: 10px;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  width: 8rem;
+}
+
+.nfts-total{
+  margin: 10px;
+  color: #ffffff;
+}
+
+
+.social-media span{
+  margin-right: 15px;
+  padding: 10px;
+  font-size: 40px;
+  /* border: 1px solid white; */
 }
