@@ -1,0 +1,26 @@
+.header-container {
+  display: flex;
+  /* border: 0.5px solid white; */
+}
+
+.box-1,
+.box-2{
+  border: 0.5px solid white;
+  width: 50%;
+  margin: 10px;
+  
+}
+
+.text-section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    padding: 20px;
+    letter-spacing: -1px;
+    color: #ffffff;
+}
+.button-section{
+    border: 1px solid white;
+}
