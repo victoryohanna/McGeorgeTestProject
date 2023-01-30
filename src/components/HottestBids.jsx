@@ -21,6 +21,9 @@ const Hottest = () => {
           </div>
         </div>
       </div>
+      <div className="btn-hottest">
+        <button type="button">Explore</button>
+      </div>
     </div>
   );
 };
