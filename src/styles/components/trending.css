@@ -1,32 +1,60 @@
 .trending-container{
-    border: 1px solid white;
-    margin: 140px 0;
-    padding: 10px;
-    transform: rotate(-5deg);
-
+    /* border: 1px solid #ffffff; */
 }
 
-.caption-text{
-    border: 1px solid white;
+.trend-caption{
+    /* border: 1px solid white; */
+    margin: 80px 0 20px 0;
     display: flex;
-    padding: 10px;
+    transform: rotate(-4deg);
 }
 
-.caption-text h2{
+.trend-text{
     color: #ffffff;
-    display: block;
-    margin-left: 10px;
-}
-
-.btn-view{
-   margin-left: 640px;
+    width: 50%;
+    margin: 10px;
+    /* border: 1px solid white; */
     
 }
 
-.trend-img{
+.trend-text h2{
+    margin: 3px 30px;
+}
+
+.trend-button{
+    /* border: 1px solid white; */
+    width: 50%;
     display: flex;
-    justify-content: center;
-    animation: slidein 4s linear 2s 2 normal fill-mode;
+    justify-content: end;
+    
+}
+
+.trend-button button{
+ width: 8rem;
+  height: 60px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 5px;
+  background: #190935;
+  border-color: #80ffdb;
+  color: #ffffff;
+  margin: 3px 30px;
+  
+}
+
+.trend-img1{
+    display: flex;
+    margin: 20px auto;
+    transform: rotate(-5deg);
+    /* border: 1px solid white; */
+    
+}
+
+.trend-img2{
+    display: flex;
+    margin: 20px auto;
+    transform: rotate(-5deg);
+    /* border: 1px solid white; */
 }
 
 .img1,
@@ -38,9 +66,17 @@
     height: 200px;
     border: 1px solid white;
     margin: 10px;
-    /* transform: rotate(-10deg); */
+    /* transform: rotate(-4deg); */
 }
 
 @keyframes slidein {
-    100% { left: 0;}
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
 }
