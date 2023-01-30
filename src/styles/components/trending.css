@@ -1,6 +1,6 @@
-.trending-container{
-    /* border: 1px solid #ffffff; */
-}
+/* .trending-container{
+    border: 1px solid #ffffff;
+} */
 
 .trend-caption{
     /* border: 1px solid white; */
@@ -10,6 +10,7 @@
 }
 
 .trend-text{
+
     color: #ffffff;
     width: 50%;
     margin: 10px;

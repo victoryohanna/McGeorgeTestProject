@@ -13,7 +13,7 @@ const Header = () => {
             <span>
               <FaTwitter />
             </span>
-            <span>
+            <span> 
               <FaAndroid />
             </span>
           </div>
