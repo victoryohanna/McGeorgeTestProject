@@ -1,0 +1,46 @@
+.trending-container{
+    border: 1px solid white;
+    margin: 40px;
+    padding: 10px;
+    transform: rotate(-5deg);
+
+}
+
+.caption-text{
+    border: 1px solid white;
+    display: flex;
+    padding: 10px;
+}
+
+.caption-text h2{
+    color: #ffffff;
+    display: block;
+    margin-left: 10px;
+}
+
+.btn-view{
+   margin-left: 640px;
+    
+}
+
+.trend-img{
+    display: flex;
+    justify-content: center;
+    animation: slidein 4s linear 2s 2 normal fill-mode;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    margin: 10px;
+    /* transform: rotate(-10deg); */
+}
+
+@keyframes slidein {
+    100% { left: 0;}
+}
