@@ -1,62 +1,108 @@
-
-.hottest-container{
-    color: #ffffff;
-    /* border: 1px solid white; */
+.hottestbids-container {
+  color: #ffffff;
+  margin-top: 250px;
+  /* border: 1px solid white; */
 }
 
-.info-title{
-    display: flex;
+.info-title {
+  display: flex;
 }
 
-.hottestbid{
-    display: flex;
-    margin: 2px;
-    padding: 8px;
-    
+.hottestbids {
+  display: flex;
+  margin: 2px;
+  padding: 8px;
+  /* border: 1px solid white; */
 }
 
-.bids{
-    width: 50%;
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 2px 2px #444141;
-    /* border: 1px solid white; */
+.hottestbids-left,
+.hottestbids-right {
+  width: 50%;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 2px 2px 2px #444141;
+  /* border: 1px solid white; */
 }
 
-.info-text, .info-timer{
-    width: 50%;
-    padding: 20px;
+.left-items1,
+.left-items2,
+.right-items1,
+.right-items2 {
+  display: flex;
+  width: 50%;
+  margin: 0 0 0 5px;
+  /* border: 1px solid white; */
 }
 
-.info-timer{
-    display: flex;
-    justify-content: end;
-
-    
+.left-items2,
+.right-items2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 18px;
 }
 
-.info-timer input{
-    width: 70%;
-    height: 40px;
-    border-radius: 15px;
-    background: rgb(26, 26, 80);
+.flem-icon {
+  margin-right: 10px;
+  font-size: 40px;
+}
+.info-text,
+.info-timer {
+  width: 50%;
+  padding: 20px;
+  /* border: 1px solid white; */
 }
 
-.btn-hottest{
-    display: flex;
-    justify-content: center;
-    margin: 80px 10px;
-    padding: 20px;
+.bit-text p {
+  padding-right: 4px;
 }
 
-.btn-hottest button{
-    font-size: 18px;
-    padding: 10px;
-    width: 10%;
-    height: 60px;
-    font-weight: 700;
-    background: #04caa9;
-    border-radius: 5px;
-    border: 1px solid #04caa9;
-    cursor: pointer;
+.info-timer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+
+.info-timer label {
+  width: 60%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: rgb(87, 87, 199);
+}
+
+.info-timer label > span {
+  font-size: 18px;
+  /* border: 1px solid white; */
+  margin: 0 10px;
+  align-items: center;
+  padding: 8px 25px;
+  border-radius: 10px;
+}
+
+#day1 {
+  background: rgb(34, 34, 90);
+  /* border: 1px solid white; */
+}
+
+.btn-hottest {
+  display: flex;
+  justify-content: center;
+  margin: 80px 10px;
+  padding: 20px;
+}
+
+.btn-hottest button {
+  font-size: 18px;
+  padding: 10px;
+  width: 10%;
+  height: 60px;
+  font-weight: 700;
+  background: #04caa9;
+  border-radius: 5px;
+  border: 1px solid #04caa9;
+  cursor: pointer;
 }
