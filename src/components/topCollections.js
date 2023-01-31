@@ -1,5 +1,5 @@
 
-const NFTsToCollections = [
+const NFTsTopCollections = [
     {
         image: "",
         name: "Onigiri Pepes",
@@ -52,4 +52,4 @@ const NFTsToCollections = [
     
 ]
 
-export default NFTsCollections;
+export default NFTsTopCollections;

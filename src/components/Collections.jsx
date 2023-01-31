@@ -1,8 +1,12 @@
 import "../styles/components/collections.css";
 import { SiDatabricks, SiAddthis } from "react-icons/si";
 import { IoFlameSharp } from "react-icons/io5";
+import NFTsTopCollections from './topCollections';
+import NFTsTopSellers from './topSellers';
 
 const Collections = () => {
+  const topCollections = NFTsTopCollections;
+  const topSellers = NFTsTopSellers;
   return (
     <div className="collection-container">
       <div className="top-collections">
@@ -11,60 +15,30 @@ const Collections = () => {
           <span>24hrs Volume</span>
         </div>
         <div className="collections">
-          <div className="collction-items">
+          {
+            topCollections.map((item, index)=>{
+              return(
+                <div className="collction-items">
             <div className="averta-item1">
               <div className="averta">Averta</div>
               <div>
-                <span>Onigiri Pepes</span>
-                <p>1654.45ETH</p>
+                <span>{item.name}</span>
+                <p>{item.value}</p>
               </div>
             </div>
             <div className="averta-item2">
               <div className="databricks">
                 <SiDatabricks />
               </div>
-              <span>0.20</span>
+              <span>{item.qnty}</span>
             </div>
             <div className="averta-item3">
-              <span>+81.93%</span>
+              <span>{item.figure}%</span>
             </div>
           </div>
-          <div className="collction-items">
-            <div className="averta-item1">
-              <div className="averta">Averta</div>
-              <div>
-                <span>Onigiri Pepes</span>
-                <p>1654.45ETH</p>
-              </div>
-            </div>
-            <div className="averta-item2">
-              <div className="databricks">
-                <SiDatabricks />
-              </div>
-              <span>0.20</span>
-            </div>
-            <div className="averta-item3">
-              <span>+81.93%</span>
-            </div>
-          </div>
-          <div className="collction-items">
-            <div className="averta-item1">
-              <div className="averta">Averta</div>
-              <div>
-                <span>Onigiri Pepes</span>
-                <p>1654.45ETH</p>
-              </div>
-            </div>
-            <div className="averta-item2">
-              <div className="databricks">
-                <SiDatabricks />
-              </div>
-              <span>0.20</span>
-            </div>
-            <div className="averta-item3">
-              <span>+81.93%</span>
-            </div>
-          </div>
+              )
+            })
+          }
           <button className="btn-explor">Explore</button>
         </div>
       </div>
@@ -74,19 +48,22 @@ const Collections = () => {
           <span>Ranking</span>
         </div>
         <div className="sellers">
-          <div className="collction-items">
+          {
+            topSellers.map((item, index)=>{
+              return(
+                <div className="collction-items">
             <div className="averta-item1">
               <div className="averta">Averta</div>
               <div>
-                <span>Onigiri Pepes</span>
-                <p>1654.45ETH</p>
+                <span>{item.name}</span>
+                <p>{item.value}</p>
               </div>
             </div>
             <div className="averta-item2">
               <div className="databricks">
                 <IoFlameSharp />
               </div>
-              <span>0.20</span>
+              <span>{item.status}</span>
             </div>
             <div className="averta-item3">
               <span>
@@ -94,46 +71,10 @@ const Collections = () => {
               </span>
             </div>
           </div>
-          <div className="collction-items">
-            <div className="averta-item1">
-              <div className="averta">Averta</div>
-              <div>
-                <span>Onigiri Pepes</span>
-                <p>1654.45ETH</p>
-              </div>
-            </div>
-            <div className="averta-item2">
-              <div className="databricks">
-                <IoFlameSharp />
-              </div>
-              <span>0.20</span>
-            </div>
-            <div className="averta-item3">
-              <span>
-                <SiAddthis />
-              </span>
-            </div>
-          </div>
-          <div className="collction-items">
-            <div className="averta-item1">
-              <div className="averta">Averta</div>
-              <div>
-                <span>Onigiri Pepes</span>
-                <p>1654.45ETH</p>
-              </div>
-            </div>
-            <div className="averta-item2">
-              <div className="databricks">
-                <IoFlameSharp />
-              </div>
-              <span>0.20</span>
-            </div>
-            <div className="averta-item3">
-              <span>
-                <SiAddthis />
-              </span>
-            </div>
-          </div>
+              )
+            })
+          }
+          
           <button className="btn-discover">Discover</button>
         </div>
       </div>
