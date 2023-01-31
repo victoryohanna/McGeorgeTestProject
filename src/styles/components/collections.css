@@ -1,37 +1,103 @@
-.collection-container{
-    display: flex;
-    color: #ffffff;
-    padding: 5px;
-    margin-top: 130px;
-    border: 1px solid white;
+.collection-container {
+  display: flex;
+  color: #ffffff;
+  padding: 5px;
+  margin-top: 130px;
+  /* border: 1px solid white; */
 }
 
-.top-collections,.top-sellers{
-    
-    width: 50%;
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid white;
+.top-collections,
+.top-sellers {
+  width: 50%;
+  margin: 5px;
+  padding: 5px;
+  /* border: 1px solid white; */
 }
 
-/* .top-sellers{
-    width: 50%;
-    border: 1px solid white;
-} */
-
-.btn-explore{
-    position: absolute;
-    left: 20%;
+.collections,
+.sellers {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 4px 5px #0000001a;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.btn-discover{
-    position: absolute;
-    right: 25%;
+.sellers:hover {
+  border-color: rgb(3, 179, 179);
 }
 
-.averta{
-    border: 1px solid white;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+.collections:hover {
+  border-color: rgb(13, 215, 230);
+}
+
+.collction-items {
+  display: flex;
+  align-items: center;
+}
+
+.averta-item1,
+.averta-item2,
+.averta-item3 {
+  margin: 15px;
+  display: flex;
+  /* border: 1px solid white; */
+}
+
+.averta-item1 {
+  width: 40%;
+  /* justify-content: center; */
+}
+
+.averta-item2 {
+  width: 25%;
+  justify-content: center;
+}
+
+.averta-item3 {
+  width: 25%;
+  justify-content: end;
+}
+
+.averta {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.databricks {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.btn-explor {
+  position: absolute;
+  left: 22%;
+  width: 8rem;
+  height: 60px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 5px;
+  background: #80ffdb;
+  cursor: pointer;
+}
+
+.btn-discover {
+  position: absolute;
+  right: 20%;
+  width: 8rem;
+  height: 60px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 5px;
+  background: #80ffdb;
+  cursor: pointer;
+}
+
+.collection-text,
+.seller-text {
+  padding: 25px;
+  /* border: 1px solid white; */
 }
