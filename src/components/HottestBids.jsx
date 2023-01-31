@@ -1,8 +1,10 @@
 import "../styles/components/hottestBids.css";
 import { IoFlameSharp } from "react-icons/io5";
 import { RxEyeOpen } from "react-icons/rx";
+import NFTsHottestBids from "./hottestbid";
 
 const Hottest = () => {
+  const hottestbid = NFTsHottestBids;
   return (
     <div className="hottestbids-container">
       <div className="info-title">
@@ -18,87 +20,30 @@ const Hottest = () => {
         </div>
       </div>
       <div className="hottestbids">
-        <div className="hottestbids-left">
-          <div className="left-items1">
-            <div className="averta">Averta</div>
-            <div className="bids-text">
-              <span>CrowdSurfers</span>
-              <p>
-                <RxEyeOpen /> (405K)
-              </p>
+        {hottestbid.map((item, index) => {
+          return (
+            <div className="hottestbids-wrap" key={index}>
+              <div className="left-items1">
+                <div className="averta">Averta</div>
+                <div className="bids-text">
+                  <span>{item.name}</span>
+                  <p>
+                    <RxEyeOpen /> {item.views}
+                  </p>
+                </div>
+              </div>
+              <div className="left-items2">
+                <div className="flem-icon">
+                  <IoFlameSharp />
+                </div>
+                <div className="bids-text">
+                  <span>{item.value}</span>
+                </div>
+              </div>
             </div>
-          </div>
-          <div className="left-items2">
-            <div className="flem-icon">
-              <IoFlameSharp />
-            </div>
-            <div className="bids-text">
-              <span>0.98 ETH</span>
-            </div>
-          </div>
-        </div>
-        <div className="hottestbids-right">
-          <div className="right-items1">
-            <div className="averta">Averta</div>
-            <div className="bids-text">
-              <span>MRKS</span>
-              <p>
-                <RxEyeOpen /> (222K)
-              </p>
-            </div>
-          </div>
-          <div className="right-items2">
-            <div className="flem-icon">
-              <IoFlameSharp />
-            </div>
-            <div className="bids-text">
-              <span>0.325 ETH</span>
-            </div>
-          </div>
-        </div>
+          );
+        })}
       </div>
-
-      <div className="hottestbids">
-        <div className="hottestbids-left">
-          <div className="left-items1">
-            <div className="averta">Averta</div>
-            <div className="bids-text">
-              <span>CrowdSurfers</span>
-              <p>
-                <RxEyeOpen /> (405K)
-              </p>
-            </div>
-          </div>
-          <div className="left-items2">
-            <div className="flem-icon">
-              <IoFlameSharp />
-            </div>
-            <div className="bids-text">
-              <span>0.98 ETH</span>
-            </div>
-          </div>
-        </div>
-        <div className="hottestbids-right">
-          <div className="right-items1">
-            <div className="averta">Averta</div>
-            <div className="bids-text">
-              <span>MRKS</span>
-              <p>
-                <RxEyeOpen /> (222K)
-              </p>
-            </div>
-          </div>
-          <div className="right-items2">
-            <div className="flem-icon">
-              <IoFlameSharp />
-            </div>
-            <div className="bids-text">
-              <span>0.325 ETH</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className="btn-hottest">
         <button type="button">Explore</button>
       </div>

@@ -18,7 +18,7 @@ const Collections = () => {
           {
             topCollections.map((item, index)=>{
               return(
-                <div className="collction-items">
+                <div className="collction-items" key={index}>
             <div className="averta-item1">
               <div className="averta">Averta</div>
               <div>
@@ -51,7 +51,7 @@ const Collections = () => {
           {
             topSellers.map((item, index)=>{
               return(
-                <div className="collction-items">
+                <div className="collction-items" key={index}>
             <div className="averta-item1">
               <div className="averta">Averta</div>
               <div>
