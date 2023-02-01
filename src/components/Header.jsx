@@ -3,7 +3,7 @@ import { FaTwitter, FaAndroid } from "react-icons/fa";
 import {RxEyeOpen} from 'react-icons/rx';
 import {SiVuetify} from 'react-icons/si'
 import {HiArrowLongRight, HiArrowLongLeft} from 'react-icons/hi';
-import image1 from '../images/Rectangle 1.png';
+import image1 from '../assets/images/Rectangle1.png';
 
 const Header = () => {
   return (
