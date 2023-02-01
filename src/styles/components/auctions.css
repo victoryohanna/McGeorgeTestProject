@@ -43,19 +43,19 @@
 
 .auction-img1{
     display: flex;
-    margin: 20px auto;
+    margin: auto;
     transform: rotate(-5deg);
     
 }
 
 .auction-img2{
     display: flex;
-    margin: 20px auto;
+    margin:  auto;
     transform: rotate(-5deg);
     
 }
 
-.img1,
+/* .img1,
 .img2,
 .img3,
 .img4,
@@ -63,10 +63,35 @@
     width: 200px;
     height: 200px;
     border: 1px solid white;
-    margin: 10px;
-   
+    margin: 10px; 
+} */
+
+.slide-left{
+    animation-name: slideleft;
+    animation-duration: 6s;
 }
 
-@keyframes slidein {
-    100% { left: 0;}
+.slide-right{
+    animation-name: slideright;
+    animation-duration: 6s;
+}
+
+@keyframes slideleft {
+    0%{
+        margin-left: 20%;
+        /* width: 90%; */
+    }
+    100%{
+        margin-left: 0%;
+        /* width: 100%; */
+    }
+}
+
+@keyframes slideright{
+    0%{
+        margin-left: -20% ;
+    }
+    100%{
+        margin-left: 0%;
+    }
 }
