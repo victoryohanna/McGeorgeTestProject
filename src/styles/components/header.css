@@ -1,19 +1,26 @@
 .header-container {
   display: flex;
+  padding-bottom: 100px;
+  width: 100%;
   /* border: 0.5px solid white; */
-  /* background: radial-gradient(at 0% 0%,  white 10%, #190935 50%); */
+  background: radial-gradient(
+    450px 400px at 70% center,
+    rgb(180, 178, 178), #190935
+  );
   
 }
 
-.box-1,
-.box-2 {
+.left-box,
+.right-box {
   /* border: 0.5px solid white; */
   width: 50%;
   margin: 10px;
  
 }
 
-/* .box-2{
+
+
+/* .right-box{
   background: radial-gradient(#190935, #d4cece);
 } */
 
@@ -83,7 +90,7 @@
   /* border: 2px solid white; */
   width: 400px;
   height: 400px;
-  margin: 10px auto;
+  margin: 10px auto;  
 }
 
 .img-container img{

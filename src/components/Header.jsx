@@ -2,13 +2,13 @@ import "../styles/components/header.css";
 import { FaTwitter, FaAndroid } from "react-icons/fa";
 import {RxEyeOpen} from 'react-icons/rx';
 import {SiVuetify} from 'react-icons/si'
-import {HiArrowLongRight, HiArrowLongLeft} from 'react-icons/hi';
-import image1 from '../assets/images/Rectangle1.png';
+//import {HiArrowLongRight, HiArrowLongLeft} from 'react-icons/hi';
+import image1 from '../assets/images/Rectangle1.png'; 
 
 const Header = () => {
   return (
     <div className="header-container">
-      <div className="box-1">
+      <div className="left-box">
         <div className="text-section">
           <div className="social-media">
             <span>
@@ -26,7 +26,7 @@ const Header = () => {
         </div>
         <span className="nfts-total">256,000,000 NFTs</span>
       </div>
-      <div className="box-2">
+      <div className="right-box">
         <div className="img-section">
           <div className="img-container">
           <img src={image1} alt="nft" />
