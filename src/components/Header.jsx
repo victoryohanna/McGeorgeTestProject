@@ -2,7 +2,8 @@ import "../styles/components/header.css";
 import { FaTwitter, FaAndroid } from "react-icons/fa";
 import {RxEyeOpen} from 'react-icons/rx';
 import {SiVuetify} from 'react-icons/si'
-import {HiArrowLongRight, HiArrowLongLeft} from 'react-icons/hi'
+import {HiArrowLongRight, HiArrowLongLeft} from 'react-icons/hi';
+import image1 from '../images/Rectangle 1.png';
 
 const Header = () => {
   return (
@@ -28,7 +29,7 @@ const Header = () => {
       <div className="box-2">
         <div className="img-section">
           <div className="img-container">
-          <img src="" alt="nft" />
+          <img src={image1} alt="nft" />
           </div>
           
           <div className="info-views">
