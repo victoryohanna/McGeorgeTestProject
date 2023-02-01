@@ -24,7 +24,9 @@ const Hottest = () => {
           return (
             <div className="hottestbids-wrap" key={index}>
               <div className="left-items1">
-                <div className="averta">Averta</div>
+                <div className="averta">
+                  <img src={item.averta} alt="" />
+                </div>
                 <div className="bids-text">
                   <span>{item.name}</span>
                   <p>
