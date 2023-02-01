@@ -1,44 +1,44 @@
 
-import { ellipse8, ellipse9, ellipse10, ellipse11, ellipse12, ellipse15, ellipse14,} from "./index";
+import { averta1, averta2, averta3, averta4, averta5, averta6} from "./index";
 const NFTsTopSellers = [
   {
-    averta: ellipse8,
+    averta: averta1,
     name: "OxdO5e42nhsw9",
     value: "0.98ETH",
     status: "31k NFTs Sold",
   },
   {
-    averta: ellipse9,
+    averta: averta2,
     name: "Ella Mae",
     value: "0.98ETH",
     status: "53k NFTs Sold",
   },
   {
-    averta: ellipse10,
+    averta: averta3,
     name: "2j46hai...",
     value: "0.98ETH",
     status: "300k NFTs Sold",
   },
   {
-    averta: ellipse11,
+    averta: averta4,
     name: "Elena Kyle",
     value: "0.98ETH",
     status: "3.1k NFTs Sold",
   },
   {
-    averta: ellipse12,
+    averta: averta5,
     name: "Amandah Adams",
     value: "0.98ETH",
     status: "3.13k NFTs Sold",
   },
   {
-    averta: ellipse14,
+    averta: averta6,
     name: "Oa8bh2nk...",
     value: "0.98ETH",
     status: "3.13k NFTs Sold",
   },
   {
-    averta: ellipse15,
+    averta: averta3,
     name: "Mae Jackson",
     value: "0.98ETH",
     status: "3.13k NFTs Sold",
