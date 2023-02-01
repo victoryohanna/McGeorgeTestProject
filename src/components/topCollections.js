@@ -1,7 +1,9 @@
 
+import { averta1, averta2 } from "./index";
+
 const NFTsTopCollections = [
     {
-        image: "",
+        averta: averta1,
         name: "Onigiri Pepes",
         value: "1654.45ETH",
         qnty: 0.20,

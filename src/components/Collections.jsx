@@ -20,7 +20,9 @@ const Collections = () => {
               return(
                 <div className="collction-items" key={index}>
             <div className="averta-item1">
-              <div className="averta">Averta</div>
+              <div className="averta">
+                <img src={item.averta} alt="" />
+              </div>
               <div>
                 <span>{item.name}</span>
                 <p>{item.value}</p>
