@@ -1,5 +1,5 @@
-import "../styles/components/trending.css"; 
-import { IoFlameSharp } from "react-icons/io5"; 
+import "../styles/components/trending.css";
+import { IoFlameSharp } from "react-icons/io5";
 
 import {
   slide1,
@@ -17,8 +17,10 @@ const Trending = () => {
     <div className="trending-container">
       <div className="trend-caption">
         <div className="trend-text">
-          <h1>Trending</h1> 
-          <h1 className="lame"><IoFlameSharp/></h1>
+          <h1>Trending</h1>
+          <h1 className="lame">
+            <IoFlameSharp />
+          </h1>
         </div>
         <div className="trend-button">
           <button type="button">View All</button>
