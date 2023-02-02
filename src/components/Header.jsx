@@ -1,8 +1,8 @@
 import "../styles/components/header.css";
 import { FaTwitter, FaAndroid } from "react-icons/fa";
 import {RxEyeOpen} from 'react-icons/rx';
-import {SiVuetify} from 'react-icons/si'
-//import {HiArrowLongRight, HiArrowLongLeft} from 'react-icons/hi';
+import {SiVuetify} from 'react-icons/si';
+import {HiArrowLongRight, HiArrowLongLeft} from 'react-icons/hi2';
 import image1 from '../assets/images/Rectangle1.png'; 
 
 const Header = () => {
@@ -31,10 +31,9 @@ const Header = () => {
           <div className="img-container">
           <img src={image1} alt="nft" />
           </div>
-          
           <div className="info-views">
-            <div className="rx-eye"><RxEyeOpen/>( 450K)</div>
-            <div className="si-vue"><SiVuetify/> 0.908 ETH</div>
+            <div className="rx-eye"><RxEyeOpen/><span> (450K)</span></div>
+            <div className="si-vue"><SiVuetify/> <span>0.908 ETH</span></div>
           </div>
           <div className="img-text">
             <h3>Project Woof</h3>
@@ -44,8 +43,14 @@ const Header = () => {
           </div>
         </div>
         <div className="nav-section">
+          <div className="toogle">
+            <div className="c1"></div>
+          </div>
+          <div className="right-arrow">
+            {/* <button><HiArrowLongRight/></button> */}
+          </div>
           <div className="left-arrow">
-            
+            {/* <button><HiArrowLongLeft/></button> */}
           </div>
         </div>
         
