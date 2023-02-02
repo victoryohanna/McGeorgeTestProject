@@ -1,11 +1,23 @@
 .hottestbids-container {
   color: #ffffff;
   margin-top: 250px;
-  /* border: 1px solid white; */
 }
 
 .info-title {
   display: flex;
+}
+
+.info-text {
+  color: #ffffff;
+  width: 50%;
+  margin: 10px;
+  display: flex;
+}
+
+.info-text h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 74px;
 }
 
 .hottestbids {
@@ -13,17 +25,14 @@
   flex-wrap: wrap;
   margin: 2px;
   padding: 8px;
-  /* border: 1px solid white; */
 }
-
 
 .hottestbids-wrap {
   width: 45%;
   margin: 10px;
   padding: 20px;
   display: flex;
-  box-shadow: 0 2px 2px 2px #444141;
-  /* border: 1px solid white; */
+  box-shadow: 0px 5px 4px 5px rgba(0, 0, 0, 0.1);
 }
 
 .left-items1,
@@ -33,7 +42,6 @@
   display: flex;
   width: 50%;
   margin: 0 0 0 5px;
-  /* border: 1px solid white; */
 }
 
 .left-items2,
@@ -47,12 +55,13 @@
 .flem-icon {
   margin-right: 10px;
   font-size: 40px;
+  color: #fcd170;
 }
 .info-text,
 .info-timer {
   width: 50%;
   padding: 20px;
-  /* border: 1px solid white; */
+ 
 }
 
 .bit-text p {
@@ -63,7 +72,7 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  /* border: 1px solid white; */
+  
 }
 
 .info-timer label {
@@ -72,12 +81,11 @@
   display: flex;
   align-items: center;
   border-radius: 10px;
-  background: rgb(87, 87, 199);
+  background: #692ADC;
 }
 
 .info-timer label > span {
   font-size: 18px;
-  /* border: 1px solid white; */
   margin: 0 10px;
   align-items: center;
   padding: 8px 25px;
@@ -86,7 +94,6 @@
 
 #day1 {
   background: rgb(34, 34, 90);
-  /* border: 1px solid white; */
 }
 
 .btn-hottest {
@@ -104,6 +111,5 @@
   font-weight: 700;
   background: #04caa9;
   border-radius: 5px;
-  border: 1px solid #04caa9;
   cursor: pointer;
 }

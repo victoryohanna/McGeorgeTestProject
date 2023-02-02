@@ -3,13 +3,13 @@ import { IoFlameSharp } from "react-icons/io5";
 import { RxEyeOpen } from "react-icons/rx";
 import NFTsHottestBids from "./hottestbid";
 
-const Hottest = () => {
+const Hottest = () => {  
   const hottestbid = NFTsHottestBids;
   return (
     <div className="hottestbids-container">
       <div className="info-title">
         <div className="info-text">
-          <h1>Hottest Bids</h1>
+          <h1>Hottest bids</h1>
         </div>
         <div className="info-timer">
           <label>
