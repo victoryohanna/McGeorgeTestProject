@@ -18,7 +18,9 @@ const Auctions = () => {
       <div className="auction-caption">
         <div className="auction-text">
           <h1>Live Auctions</h1>
-          <h1 className="lame"><IoFlameSharp/></h1>
+          <h1 className="lame">
+            <IoFlameSharp />
+          </h1>
         </div>
         <div className="auction-button">
           <button>View All</button>
