@@ -1,22 +1,24 @@
+import "../styles/components/trending.css"; 
+import { IoFlameSharp } from "react-icons/io5"; 
 
-import "../styles/components/trending.css";
-
-import slide1 from '../assets/images/slide1.png';
-import slide2 from '../assets/images/slide2.jpg';
-import slide3 from '../assets/images/slide3.jpg';
-import slide4 from '../assets/images/slide4.jpg';
-
-import slide5 from '../assets/images/slide5.jpg';
-import slide6 from '../assets/images/slide6.jpg';
-import slide7 from '../assets/images/slide7.png';
-import slide8 from '../assets/images/slide8.jpg';
+import {
+  slide1,
+  slide2,
+  slide3,
+  slide4,
+  slide5,
+  slide6,
+  slide7,
+  slide8,
+} from "./index";
 
 const Trending = () => {
   return (
     <div className="trending-container">
       <div className="trend-caption">
         <div className="trend-text">
-          <h2>Trending</h2>
+          <h1>Trending</h1> 
+          <h1 className="lame"><IoFlameSharp/></h1>
         </div>
         <div className="trend-button">
           <button type="button">View All</button>
