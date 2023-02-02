@@ -3,8 +3,9 @@
 } */
 
 .trend-caption{
-    /* border: 1px solid white; */
-    margin: 80px 0 20px 0;
+    
+    width: 90%;
+    margin: 0px auto;
     display: flex;
     transform: rotate(-4deg);
 }
@@ -13,18 +14,34 @@
     color: #ffffff;
     width: 50%;
     margin: 10px;
-    /* border: 1px solid white; */    
+    display: flex;
+   
+}
+
+.trend-text h1{
+    font-weight: 700;
+font-size: 40px;
+line-height: 74px;
 }
 
 .trend-text h2{
-    margin: 3px 30px;
+    margin: 1px ;
+    font-size: 70px;
+    border: 1px solid white;
+    display: inline-block;
+    justify-content: center;
+}
+
+
+.trend-text span{
+    font-size: 30px;
 }
 
 .trend-button{
-    /* border: 1px solid white; */
     width: 50%;
     display: flex;
     justify-content: end;
+    align-items: center;
     
 }
 
@@ -38,23 +55,21 @@
   border-color: #80ffdb;
   color: #ffffff;
   margin: 3px 30px;
+  cursor: pointer;
   
 }
 
 .trend-img1{
     display: flex;
-    /* justify-content: center; */
     margin: auto;
     transform: rotate(-5deg);
-    /* border: 1px solid white; */
+    
 }
 
 .trend-img2{
     display: flex;
     margin: 20px auto;
     transform: rotate(-5deg);
-    /* border: 1px solid white; */
-
 }
 
 .img1,
@@ -64,11 +79,16 @@
 .img5{
     width: 379px;
     height: 272px;
-    /* border: 1px solid white; */
-    margin: 10px;
-    /* transform: rotate(-4deg); */
+    margin: 20px;
+}
 
-   
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.lame{
+    color: #fcd170;
 }
 
 .slide-left{
