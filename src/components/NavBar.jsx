@@ -1,6 +1,6 @@
 import "../styles/components/navbar.css";
 
-const NavBar = () => { 
+const NavBar = () => {
   return (
     <div className="navbar">
       <div className="left-items">
