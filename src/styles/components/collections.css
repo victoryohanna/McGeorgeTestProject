@@ -3,6 +3,7 @@
   color: #ffffff;
   padding: 5px;
   margin-top: 130px;
+  /* border: 1px solid white; */
 }
 
 .top-collections,
@@ -20,8 +21,6 @@
   box-shadow: 0px 5px 4px 5px #0000001a;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-
-
 
 .sellers:hover {
   border-color: rgb(3, 179, 179);
@@ -71,8 +70,6 @@
   color: #fcd170;
   font-size: 30px;
 }
-
-
 
 .averta {
   /* border: 1px solid white; */
@@ -148,4 +145,8 @@ line-height: 28px;
   font-size: 20px;
   line-height: 40px;
   opacity: 0.8;
+}
+
+#stf{
+  color:red;
 }

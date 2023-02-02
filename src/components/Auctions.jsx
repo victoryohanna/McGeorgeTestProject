@@ -33,7 +33,6 @@ const Auctions = () => {
             <h1>12:00 2023</h1>
           </div>
         </div>
-
         <div className="img2">
           <img src={slide10} alt="" />
           <div className="datePad">

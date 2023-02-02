@@ -4,7 +4,7 @@ import { IoFlameSharp } from "react-icons/io5";
 import NFTsTopCollections from "./topCollections";
 import NFTsTopSellers from "./topSellers";
 
-const Collections = () => {
+const Collections = () => { 
   const topCollections = NFTsTopCollections;
   const topSellers = NFTsTopSellers;
   return (
@@ -34,7 +34,7 @@ const Collections = () => {
                   <span>{item.qnty}</span>
                 </div>
                 <div className="averta-item3">
-                  <span>{item.figure}%</span>
+                  <span >{item.figure}%</span>
                 </div>
               </div>
             );

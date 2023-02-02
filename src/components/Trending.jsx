@@ -43,7 +43,7 @@ const Trending = () => {
         </div>
       </div>
       </AnimatedOnScroll>
-      <AnimatedOnScroll animationIn="slideInRight" >
+      <AnimatedOnScroll animationIn="slideInRight">
       <div className="trend-img2 slide-right">
         <div className="img2">
           <img src={slide5} alt="" />
