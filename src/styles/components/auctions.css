@@ -60,16 +60,16 @@
   transform: rotate(-5deg);
 }
 
-/* .img1,
-.img2,
-.img3,
-.img4,
-.img5{
-    width: 200px;
-    height: 200px;
-    border: 1px solid white;
-    margin: 10px; 
-} */
+.datePad{
+  position: absolute;
+  top: 220px;
+  width: 295px;
+  opacity: 0.5;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
 
 .slide-left {
   animation-name: slideleft;

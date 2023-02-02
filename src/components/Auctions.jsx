@@ -29,32 +29,55 @@ const Auctions = () => {
       <div className="auction-img1">
         <div className="img1">
           <img src={slide9} alt="" />
+          <div className="datePad">
+            <h1>12:00 2023</h1>
+          </div>
         </div>
+
         <div className="img2">
           <img src={slide10} alt="" />
+          <div className="datePad">
+            <h1>12:00 2023</h1>
+          </div>
         </div>
         <div className="img3">
           <img src={slide11} alt="" />
+          <div className="datePad">
+            <h1>12:00 2023</h1>
+          </div>
         </div>
         <div className="img4">
           <img src={slide12} alt="" />
+          <div className="datePad">
+            <h1>12:00 2023</h1>
+          </div>
         </div>
-        {/* <div className="img5"></div> */}
       </div>
       <div className="auction-img2">
         <div className="img1">
           <img src={slide1} alt="" />
+          <div className="datePad">
+            <h1>12:00 2023</h1>
+          </div>
         </div>
         <div className="img2">
           <img src={slide2} alt="" />
+          <div className="datePad">
+            <h1>12:00 2023</h1>
+          </div>
         </div>
         <div className="img3">
           <img src={slide3} alt="" />
+          <div className="datePad">
+            <h1>12:00 2023</h1>
+          </div>
         </div>
         <div className="img4">
           <img src={slide4} alt="" />
+          <div className="datePad">
+            <h1>12:00 2023</h1>
+          </div>
         </div>
-        {/* <div className="img5"></div> */}
       </div>
     </div>
   );
