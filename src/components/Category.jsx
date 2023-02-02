@@ -20,7 +20,6 @@ const Categories = ()=>{
                         </p>
                     </div>
                 </div>
-
                 <div className="items-category">
                     <div className="image-caategory">
                         <img src={image3} alt="" />
@@ -32,14 +31,11 @@ const Categories = ()=>{
                         </p>
                     </div>
                 </div>
-
                 <div className="items-category">
                     <div className="image-caategory">
                         <img src={image4} alt="" />
                     </div>
-                    
                         <h2 className='sub-title'>Photography</h2>
-                    
                     <div className="description">
                         <p>Lost money holding shib? project shiba is a
                             way to stand in solidarity with others
