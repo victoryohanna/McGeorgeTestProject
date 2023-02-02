@@ -1,5 +1,5 @@
 .footer-container {
-  background: #2e2ee7;
+  background: #1b112e;
 }
 
 .footer-wrapper {
@@ -12,7 +12,6 @@
 .search-info {
   display: flex;
   margin: 20px;
-  /* border: 1px solid white; */
 }
 
 .search,
@@ -25,25 +24,27 @@
 
 .search-bar input {
   width: 50%;
-  height: 30px;
+  height: 35px;
+  background: #170b2d;
+  border: none;
 }
-
+  
 .search-bar button {
   font-size: 18px;
   height: 35px;
   padding: 0 15px;
+  background: #1b112e;
+  color: #ffffff;
+
 }
 
 .logo-section {
   display: flex;
   align-items: center;
-
-  /* border: 1px solid black; */
 }
 
 .logo-section h2 {
   margin-left: 5px;
-  /* border: 1px solid black; */
 }
 
 .logo {
@@ -55,15 +56,11 @@
 
 .quick-links ul {
   list-style-type: none;
-
-  /* border: 1px solid black; */
 }
 
 .quick-links li {
   padding: 5px;
   margin: 2px;
-
-  /* border: 1px solid black; */
 }
 
 a {
@@ -72,13 +69,11 @@ a {
 }
 
 .quick-links h5 {
-  /* border: 1px solid black; */
   margin-left: 15px;
   padding-left: 15px;
 }
 
 .copyright-section {
-  /* border: 1px solid black; */
   display: flex;
   width: 95%;
   margin: auto;
@@ -88,7 +83,6 @@ a {
 .copyright {
   width: 50%;
   padding: 0 10px;
-  /* border: 1px solid black; */
 }
 
 .social-links {
@@ -97,9 +91,12 @@ a {
   display: flex;
   justify-content: end;
   align-items: center;
-  /* border: 1px solid black; */
 }
 
 .social-links span {
   margin-right: 5px;
+}
+
+input {
+  
 }

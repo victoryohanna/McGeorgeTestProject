@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import "../styles/components/footer.css";
 
-const Footer = () => {
+const Footer = () => { 
   return (
     <div className="footer-container">
       <div className="footer-wrapper">
@@ -16,13 +16,14 @@ const Footer = () => {
           <div className="search">
             <div className="logo-section">
               <div className="logo"></div>
-              <h2>DStage</h2>
+              <Link to="/"><h2>DStage</h2>
+              </Link>
             </div>
             <p>Get all the latest updates regarding NFTs</p>
             <div className="search-bar">
               <form>
                 <input type="text" />
-                <button type="button">Search</button>
+                <button type="button">Subscribe</button>
               </form>
             </div>
           </div>
