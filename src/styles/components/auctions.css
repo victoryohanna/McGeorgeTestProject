@@ -4,55 +4,60 @@
 
 } */
 
-.auction-caption{
-    margin: 80px 0 20px 0;
-    display: flex;
-    transform: rotate(-4deg);
+.auction-caption {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  transform: rotate(-4deg);
+  /* border: 1px solid white; */
 }
 
-.auction-text{
-    color: #ffffff;
-    width: 50%;
-    margin: 10px;
+.auction-text {
+  color: #ffffff;
+  width: 50%;
+  margin: 10px;
+  display: flex;
 }
 
-.auction-text h2{
-    margin: 3px 30px;
+.auction-text h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 74px;
 }
 
-.auction-button{
-    width: 50%;
-    display: flex;
-    justify-content: end; 
+.auction-text span {
+  font-size: 30px;
 }
 
-.auction-button button{
-    width: 8rem;
-    height: 60px;
-    font-weight: 500;
-    font-size: 22px;
-    border-radius: 5px;
-    background: #190935;
-    border-color: #80ffdb;
-    color: #ffffff;
-    margin: 3px 30px;
-    
+.auction-button {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
-
-
-.auction-img1{
-    display: flex;
-    margin: auto;
-    transform: rotate(-5deg);
-    
+.auction-button button {
+  width: 8rem;
+  height: 60px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 5px;
+  background: #190935;
+  border-color: #80ffdb;
+  color: #ffffff;
+  margin: 3px 30px;
 }
 
-.auction-img2{
-    display: flex;
-    margin:  auto;
-    transform: rotate(-5deg);
-    
+.auction-img1 {
+  display: flex;
+  margin: auto;
+  transform: rotate(-5deg);
+}
+
+.auction-img2 {
+  display: flex;
+  margin: auto;
+  transform: rotate(-5deg);
 }
 
 /* .img1,
@@ -66,32 +71,32 @@
     margin: 10px; 
 } */
 
-.slide-left{
-    animation-name: slideleft;
-    animation-duration: 6s;
+.slide-left {
+  animation-name: slideleft;
+  animation-duration: 6s;
 }
 
-.slide-right{
-    animation-name: slideright;
-    animation-duration: 6s;
+.slide-right {
+  animation-name: slideright;
+  animation-duration: 6s;
 }
 
 @keyframes slideleft {
-    0%{
-        margin-left: 20%;
-        /* width: 90%; */
-    }
-    100%{
-        margin-left: 0%;
-        /* width: 100%; */
-    }
+  0% {
+    margin-left: 20%;
+    /* width: 90%; */
+  }
+  100% {
+    margin-left: 0%;
+    /* width: 100%; */
+  }
 }
 
-@keyframes slideright{
-    0%{
-        margin-left: -20% ;
-    }
-    100%{
-        margin-left: 0%;
-    }
+@keyframes slideright {
+  0% {
+    margin-left: -20%;
+  }
+  100% {
+    margin-left: 0%;
+  }
 }
