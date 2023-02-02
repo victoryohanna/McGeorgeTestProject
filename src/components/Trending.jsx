@@ -1,7 +1,8 @@
 import "../styles/components/trending.css";
 import { IoFlameSharp } from "react-icons/io5";
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
 
-import {
+import { 
   slide1,
   slide2,
   slide3,
@@ -26,6 +27,7 @@ const Trending = () => {
           <button type="button">View All</button>
         </div>
       </div>
+      <AnimatedOnScroll animationIn="slideInLeft">
       <div className="trend-img1 slide-left">
         <div className="img1">
           <img src={slide1} alt="" />
@@ -39,12 +41,10 @@ const Trending = () => {
         <div className="img4">
           <img src={slide4} alt="" />
         </div>
-        {/* <div className="img5"></div> */}
       </div>
+      </AnimatedOnScroll>
+      <AnimatedOnScroll animationIn="slideInRight" >
       <div className="trend-img2 slide-right">
-        {/* <div className="img1">
-          <img src="" alt=""></img>
-        </div> */}
         <div className="img2">
           <img src={slide5} alt="" />
         </div>
@@ -58,6 +58,7 @@ const Trending = () => {
           <img src={slide8} alt="" />
         </div>
       </div>
+      </AnimatedOnScroll>
     </div>
   );
 };
