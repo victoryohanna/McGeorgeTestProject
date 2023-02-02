@@ -49,29 +49,25 @@ const Header = () => {
           </div>
         </div>
         <div className="nav-section">
-          
-            <ul className="pagination">
-              
-              <li className="page1">
-                <span >1 </span>
-              </li>
-              <li className="page2">
-                <span >2 </span>
-              </li>
-              <li className="page3">
-                <span >3 </span>
-              </li>
-              <li className="page4">
-                <span >4 </span>
-              </li>
-              
-            </ul>
+          <ul className="pagination">
+            <li className="page1">
+              <span>1 </span>
+            </li>
+            <li className="page2">
+              <span>2 </span>
+            </li>
+            <li className="page3">
+              <span>3 </span>
+            </li>
+            <li className="page4">
+              <span>4 </span>
+            </li>
+          </ul>
 
-            <div className="nav-button">
-              <button type="button">Previous</button>
-              <button type="button">Next</button>
-            </div>
-         
+          <div className="nav-button">
+            <button type="button">Previous</button>
+            <button type="button">Next</button>
+          </div>
         </div>
       </div>
     </div>
